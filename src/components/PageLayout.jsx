@@ -4,12 +4,12 @@ import Foooter from './Foooter'
 
 const PageLayout = ({ children }) => {
     return (
-        <section>
+        <section className='font-inter'>
             <Navbar />
             <div>
                 {children}
             </div>
-            <Foooter/>
+            <Foooter />
         </section>
     )
 }
