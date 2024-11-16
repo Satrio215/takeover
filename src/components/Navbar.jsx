@@ -3,7 +3,15 @@ import React from 'react'
 const Navbar = () => {
     return (
         <nav className='container'>
-            HALO INI NAVBAR
+            <div className='flex justify-between'>
+                <h1>LOGO</h1>
+                <ul className='flex gap-11'>
+                    <li>Home</li>
+                    <li>Body Kits</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
         </nav>
     )
 }
